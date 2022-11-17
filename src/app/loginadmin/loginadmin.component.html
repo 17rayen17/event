@@ -1,0 +1,32 @@
+<mat-button-toggle-group name="fontStyle" aria-label="Font Style" class="role">
+    <mat-button-toggle value="bold" routerLink="/loginadmin" matTooltip="page login de l'admin"><b>Administrateur</b></mat-button-toggle>
+    <mat-button-toggle value="italic" routerLink="/login" matTooltip="page login de l'utilisateur"><b>utilisateur</b></mat-button-toggle>
+  </mat-button-toggle-group>
+
+
+
+<div class="center-content">
+    <mat-card class="example-card">
+      <mat-card-header>
+        <mat-card-title>ADMIN</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <mat-tab-group>
+        <mat-tab label="Login">
+            <mat-form-field class="example-full-width">
+              <mat-label>user</mat-label>
+              <input type="text" matInput placeholder="user" value="" >
+              <mat-icon matSuffix>perm_identity</mat-icon>
+            </mat-form-field>
+  
+            <mat-form-field class="example-full-width">
+              <mat-label>Password</mat-label>
+              <input type="password" matInput placeholder="Password" >
+              <mat-icon matSuffix>vpn_key</mat-icon>
+            </mat-form-field>
+            <button mat-button color="primary" >Login</button>
+          </mat-tab>
+            </mat-tab-group>
+        </mat-card-content>
+    </mat-card>
+</div>

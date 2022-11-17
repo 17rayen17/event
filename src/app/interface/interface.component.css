@@ -1,0 +1,22 @@
+.full-width-table {
+  width: 100%;
+}
+
+span{
+  font: 33px sans-serif;
+  margin-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #3d4866;
+  font-size: 1.4rem;
+}
+
+span:hover,
+span:active {
+  color: #000000;
+  border-bottom: solid #f0f0f0;
+}
+
+.btn{
+  margin: 05px;
+}
